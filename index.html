@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:100,300,400,600" rel="stylesheet" type="text/css">
+        <link href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet" type="text/css">
+        <link type="text/css" rel="stylesheet" href="style.css">
+        <title>Budgety</title>
+		<style> 
+			#left {
+			background-color: #B0C4DE;
+			top: 0px;
+				}
+				
+		</style>
+    </head>
+     
+          <header>
+		    <img src="images/back.png" width="500"/>
+		     <h1> My budget tracker app </h1>
+		    
+		  </header>
+		    <body>
+		     
+        <div class = "left">
+		   <div class = "Budget">
+		   
+		 <div class ="BudgetDes"> Please enter your budget  </div>
+			<input  type="text" class="BudgetDesinput" id ="Expenseinput" name="Expensedescription"></label><br>
+			 <div class ="BudgetLabel"> Please enter your budget amount </div>
+			<input  type="text" class="Budgetinput" id ="Budgetinput" name="Budgetinput"></label><br>
+
+			<Button class="BudgetSubmit"> Submit </button>
+			</div>
+			
+			 <div class = "Expenses">
+			 <div class ="ExpenseLabel"> Please enter your expense </div>
+			<input  type="text" class="Expenseinput" id ="Expenseinput" name="Expensedescription"></label><br>
+			 <div class ="ExpenseValue"> Please enter your expense amount </div>
+			<input type="text"  class="ExpenseValueInput"id ="ExpenseValueInput" name="ExpenseValueInput"></label><br>
+			<Button class="Expensebtn"> Submit </button>
+		   
+		</div>
+		
+			</div>
+		<div class = "right">
+		 
+		   <table>
+				<tr>
+					<th> <div class ="budget__value--text"> Budget </div></th>
+					<th><div class ="budget__expenses"> Expenses </div></th>
+					<th><div class ="budget__ Balance"> Balance </div></th>
+				</tr>
+				<tr>
+					<th><img src="images/money.png" height="200" width="200"></th>
+					<th><img src="images/bill.png" height="200" width="200"></th>
+					<th><img src="images/dollarsign.png" height="200" width="200"></th>
+				</tr>
+					<tr>
+					<th><div class ="budget__value--value"> $ 100 </div></th>
+					
+					<th><div class = "expense_value"> $ 50  </div></th>
+					
+					<th><div class ="balance_value"> $ 50 </div></th>
+					
+				</tr>
+			</table>
+			
+			
+		 <div class="container clearfix"> 
+			        
+			  <div class="expenses">
+                    <h2 class="expenses__title">Expenses</h2>
+                    
+                    <div class="expenses__list">
+                       
+                             
+                     
+
+                           
+                        
+                    </div>
+                </div>
+                  <!--  </div>	-->
+              
+            </div>	
+		
+		 <!--
+            <div class="budget">
+                <div class="budget__title">
+                    Available Budget in <span class="budget__title--month">%Month%</span>:
+                </div>
+                
+                <div class="budget__value">+ 2,345.64</div>
+                
+                <div class="budget__income clearfix">
+                    <div class="budget__income--text">Income</div>
+                    <div class="right">
+                        <div class="budget__income--value">+ 4,300.00</div>
+                        <div class="budget__income--percentage">&nbsp;</div>
+                    </div>
+                </div>
+                
+                <div class="budget__expenses clearfix">
+                    <div class="budget__expenses--text">Expenses</div>
+                    <div class="right clearfix">
+                        <div class="budget__expenses--value">- 1,954.36</div>
+                        <div class="budget__expenses--percentage">45%</div>
+                    </div>
+                </div>
+            </div>                     
+      
+        
+         
+           
+        <div class="bottom">
+            <div class="add">
+                <div class="add__container">
+                    <select class="add__type">
+                        <option value="inc" selected>+</option>
+                        <option value="exp">-</option>
+                    </select>
+                    <input type="text" class="add__description" placeholder="Add description">
+                    <input type="number" class="add__value" placeholder="Value">
+                    <button class="add__btn"><i class="ion-ios-checkmark-outline"></i></button>
+				    <button class="button">Submit Budget</button>
+                </div>
+            </div>
+           
+            <div class="container clearfix">
+                <div class="income">
+                    <h2 class="icome__title">Income</h2>
+                    
+                    <div class="income__list">
+                       
+                         <!--
+                        <div class="item clearfix" id="income-0">
+                            <div class="item__description">Salary</div>
+                            <div class="right clearfix">
+                                <div class="item__value">+ 2,100.00</div>
+                                <div class="item__delete">
+                                    <button class="item__delete--btn"><i class="ion-ios-close-outline"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="item clearfix" id="income-1">
+                            <div class="item__description">Sold car</div>
+                            <div class="right clearfix">
+                                <div class="item__value">+ 1,500.00</div>
+                                <div class="item__delete">
+                                    <button class="item__delete--btn"><i class="ion-ios-close-outline"></i></button>
+                                </div>
+                            </div>
+                        </div>
+
+                        
+                    </div>
+                </div>
+                
+                -->
+                
+               
+            <!-- <div class="Result">
+                    <h2 class="result__title">Budget Results</h2>
+                    
+                    <div class="result__list">
+                       
+                     
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+		
+		-->
+	
+         
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+        <script src="app.js"></script>
+      
+		</body>
+</html>
